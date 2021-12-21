@@ -1,9 +1,9 @@
 export const robots = [
   {
     id: 1,
-    name: 'Leanne Graham',
-    username: 'Bret',
-    email: 'Sincere@april.biz'
+    name: 'AaliyaGupta',
+    username: 'Aaliya',
+    email: 'aaliyartist0808@gmail.com'
   },
   {
     id: 2,
