@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import Scroll from './Scroll';
 
 const CardList = ({ robots }) => {
     const CardArray = robots.map((robot, index) => {
@@ -8,7 +9,9 @@ const CardList = ({ robots }) => {
 
     return (
         <div>
-            {CardArray}
+            <Scroll>
+                {CardArray}
+            </Scroll>
         </div>
     )
 }
